@@ -66,7 +66,7 @@ def load_data(filename):
 
 # Main function to run the environment
 def main():
-    df = load_data('path_to_FAANG_Stock_Data.csv')
+    df = load_data('FAANG_Stock_Data.csv')
     env = SimpleTradingEnv(df)
     state = env.reset()
     done = False
